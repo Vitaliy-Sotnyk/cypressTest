@@ -26,14 +26,14 @@ This will install all the dependencies for all the tasks, _it might take a while
 ```sh
 $ npm run cy_open
 ```
-Run this command and wait until the next image wouldn't open:
-![form](./imgs/welcome_to_Cypress.png)
+- Run this command and wait until the next image wouldn't open:
+  ![form](./imgs/welcome_to_Cypress.png)
+  When this window would be opened, press on the "E2E Testing" box.
 
-When this window would be opened, press on the "E2E Testing" box.
-After that, you should see the window where you could choose one of the browsers which will be created a test simulation.
-![form](./imgs/choose_a_browser.png)
-As for me, I always use Chrome)
+- After that, you should see the window where you could choose one of the browsers which will be created a test simulation.
+  ![form](./imgs/choose_a_browser.png)
+  As for me, I always use Chrome)
 
-When the browser will be opened you could see the next window: 
-![form](./imgs/specs.png)
-Here you need just press on the main.cy.js and wait. The test will be run automatically.
+- When the browser will be opened you could see the next window: 
+  ![form](./imgs/specs.png)
+  Here you need just press on the main.cy.js and wait. The test will be run automatically.
